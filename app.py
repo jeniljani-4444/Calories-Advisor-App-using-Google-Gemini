@@ -34,9 +34,9 @@ def input_image_setup(uploaded_file):
     
 
 
-st.set_page_config(page_title="Calories Advisor app")
+st.set_page_config(page_title="Calories Advisor app 🥗")
 
-st.header("Calories Advisor App")
+st.header("Calories Advisor App 🥗")
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 image=""   
 if uploaded_file is not None:
